@@ -1,12 +1,12 @@
 # Retrowave.ru Downloader
 
-![logo](./logo.png)
+![logo](images/promotional_1400x560.png)
 
 A simple an easy music downloader for [retrowave.ru](http://retrowave.ru/). 
 
 Available in English, German and Russian.
 
-![download_track](./download_track.gif)
+![download_track](images/download_track.gif)
 
 ---
 
