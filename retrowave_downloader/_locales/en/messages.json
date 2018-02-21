@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Retrowave.ru Downloader",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "With this extension, you can download songs from retrowave.ru.",
+    "description":"The description of the application, displayed in the web store."
+  }
+}
