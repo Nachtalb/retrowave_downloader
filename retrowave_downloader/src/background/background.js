@@ -5,6 +5,7 @@ class RetrowaveDownloader {
 
         self.url_query = '*://*.retrowave.ru/*';
 
+        chrome.browserAction.disable();
         self.update_connection();
         self.setup_listeners()
     }
@@ -30,7 +31,13 @@ class RetrowaveDownloader {
         const self = this;
 
         chrome.tabs.query({'url': self.url_query}, function (tabs) {
-            tabs.length > 0 ? self.tab = tabs[0] : self.tab = undefined;
+            if (tabs.length > 0) {
+                self.tab = tabs[0];
+                chrome.browserAction.enable();
+            } else {
+                self.tab = undefined;
+                chrome.browserAction.disable();
+            }
         });
     }
 
