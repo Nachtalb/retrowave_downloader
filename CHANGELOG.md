@@ -4,6 +4,10 @@
 
 
 
+### Changed
+
+- Instead of PageAction use BrowserAction, which can be called from anywhere
+
 ## [1.0.0] - 2018-02-21
 
 Initial Release
